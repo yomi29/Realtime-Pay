@@ -1,0 +1,508 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+@media screen and (max-width: 1260px) {
+
+}
+
+body {
+    background-color: #F7F6F6;
+    font-family: sans-serif;
+}
+
+.nav_section {
+    position: fixed;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 1.5rem;
+    border-radius: 75px;
+    padding: 20px;
+    background-color: var(--bg_dark2);
+}
+
+img {
+    width: 195.36px;
+    height: 40px;
+    top: -0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    gap: 32px;
+}
+
+.nav-link:is(:hover, :active) {
+    color: var(--primary_color);
+}
+
+.nav-link {
+    color: var(--text_dark);
+}
+
+.home {
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary_color);
+}
+
+.service {
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #050505;
+}
+
+.max_container {
+    max-width: 1232px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 24px;
+}
+
+.download {
+    min-width: 156px;
+    height: 44px;
+    padding: 11px 24px 11px 24px;
+    border-radius: 44px;
+    border: 1px solid #BDCCCC;
+    gap: 10px;
+    margin-right: 16px;
+    color: #F36223;
+    background-color: #FFFFFF;
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+}
+
+.log {
+    gap: 20px;
+}
+
+.login {
+    color: #050505;
+    background-color: #FFFFFF;
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 0;
+    margin-left: 10px;
+}
+
+.create_account {
+    width: 161px;
+    height: 44px;
+    padding: 11px 24px 11px 24px;
+    border-radius: 44px;
+    border: 0;
+    gap: 10px;
+    background-color: var(--primary_color);
+    color: #FFFFFF;
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+}
+
+.main_header {
+    left: 0.5px;
+    padding: 100px 140px 100px 140px;
+    gap: 24px;
+}
+
+.txt-1 {
+    font-family: Satoshi;
+    font-size: var(--font_main_header);
+    font-weight: 700;
+    line-height: 99px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(180deg, #212121 0%, #16BF5E 122.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mini_text {
+    font-family: Satoshi;
+    font-size: var(--font_h2);
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text_dark2);
+    margin-bottom: 24px;
+}
+
+#all-bills {
+    color: var(--primary_color)
+}
+
+.android {
+    width: 218px;
+    height: 60px;
+    background-color: transparent;
+    padding: 12px 40px 12px 40px;
+    border-radius: 60px;
+    border: 1px solid #F36223;
+    gap: 10px;
+}
+
+.apple {
+    width: 218px;
+    height: 60px;
+    background-color: transparent;
+    padding: 12px 40px 12px 40px;
+    border-radius: 60px;
+    border: 1px solid #F36223;
+    gap: 10px;
+}
+
+.store {
+    width: 36px;
+    height: 36px;
+}
+
+.store_text {
+    width: 92px;
+    height: 36px;
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary_color);
+
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary_color);
+}
+
+.container {
+    margin-top: 106px;
+}
+
+.services {
+    margin-top: 120px;
+}
+
+.home_page {
+    height: 812px;
+    width: 100%;
+    position: relative;
+}
+
+.home_page img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 375px;
+    margin-inline: auto;
+}
+
+.float {
+    width: 294px;
+    height: 104px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 16px;
+    gap: 6px;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.float.first {
+    top: 78px;
+    left: 0;
+}
+
+.float.second {
+    top: 232px;
+    right: 0;
+}
+
+.float.third {
+    bottom: 195px;
+    left: 0;
+}
+
+.float img {
+    width: 30px;
+    height: 30px;
+}
+
+.bills-txt {
+    font-family: Satoshi;
+    font-size: var(--font_h2);
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 2px;
+    color: var(--primary_color);
+}
+
+.txt {
+    font-family: Satoshi;
+    font-size: var(--font_sm);
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 210px;
+    height: 38px;
+    color: var(--text_dark2);
+}
+
+.education-txt {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 2px;
+    width: 125px;
+    height: 32px;
+    color: var(--primary_color);
+}
+
+.guywithapp {
+    max-width: 604px;
+    width: 100%;
+    height: 548px;
+    border-radius: 24px;
+}
+
+.img-3 {
+    max-width: 290px;
+    width: 100%;
+    height: 234px;
+    border-radius: 24px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.services {
+    padding: 100px 140px 100px 140px;
+    background-color:  #FFE7D6;
+}
+
+.service-mini {
+    max-width: 607px;
+    width: 100%;
+    height: 388px;
+    gap: 40px;
+    bottom: 156px;
+}
+
+.service_txt {
+    font-family: Satoshi;
+    font-size: var(--font_header3);
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text_dark3); 
+    max-width: 60.7rem;
+}
+
+.mini_txt {
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text_dark);
+    margin-top: 40px;
+    max-width: 55.6rem;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    max-width: 530px;
+    width: 100%;
+}
+
+.learn-more {
+    width: 191px;
+    padding: 17px 32px 17px 32px;
+    border-radius: 44px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #BDCCCC;
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary_color);
+    margin-top: 32px;
+}
+
+.arrow-up {
+    width: 24px;
+    height: 24px;
+}
+
+.electricity {
+    height: 225px;
+    padding: 50px 60px 50px 60px;
+    border-radius: 20px;
+    grid-gap: 50px;
+    background-color: #FFFFFF;
+    width: calc(50% - 25px);
+    text-align: center;
+}
+
+.svg {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+
+.electricity-txt {
+    font-family: Satoshi;
+    font-size: var(--font_lg);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text_dark);
+}
+
+.mini-txt-1 {
+    font-family: Satoshi;
+    font-size: var(--font_md);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.solutions {
+    width: 267px;
+    height: 40px;
+    padding: 10px, 40px, 10px, 40px;
+    border-radius: 40px;
+    gap: 10px;
+    background-color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(180deg, #212121 0%, #16BF5E 122.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.min-txt {
+    font-family: Satoshi;
+    font-size: var(--font_header3);
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 24px;
+    color: var(--text_dark3);
+}
+
+.min-txt-2 {
+    font-family: Satoshi;
+    font-size: var(--font_lg);
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+    color: var(--text_dark);
+    margin-top: 24px;
+}
+
+.frame-header {
+    margin-top: 100px;
+}
+
+.frames {
+    color: #FFFFFF;
+    margin-top: 40px;
+    max-width: 1232px;
+    width: 100%;
+}
+
+.card-body {
+    max-width: 384px;
+    width: 100%;
+    height: 298px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 16px;
+    border-radius: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.frame-txt-1 {
+    font-family: Satoshi;
+    font-size: var(--font_header);
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text_dark3);
+}
+
+.min-txt-3 {
+    font-family: Satoshi;
+    font-size: var(--font_md_lg);
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}

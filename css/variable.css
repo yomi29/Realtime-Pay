@@ -1,0 +1,65 @@
+:root {
+    --primary_color: #F36223;
+    --primary_lte_color: #FCE3D9;
+    --primary_lte_color2: #FFEDE5;
+
+    --text_dark: #050505;
+    --text_dark2: #5D8487;
+    --text_dark3: #212121;
+    --text_dark4: #E6E6E6;
+    --text_dark5: #FFFFFFCC;
+    --text_dark6: #141B34;
+    --text_dark7: #6B7280;
+    --text_dark8: #434255;
+
+    --green: #16BF5E;
+    --green2: #C6FFDE;
+    --green3: #E4FAED;
+    --danger_color: #FF0000;
+    --text_light: #fff;
+
+    --bg_dark: #F7F6F6;
+    --bg_dark2: #FFFFFFE5;
+    --bg_dark3: #FEF0E6;
+    --bg_dark4: #2E2A2A;
+    --bg_dark5: #494545;
+    --bg_dark6: #D9D9D9;
+    --bg_dark7: #FBFBFB;
+    --bg_dark8: #F1F1F1;
+    --bg_dark9: #F9F9F9;
+
+    --scrim: #fce3d980;
+
+    --border: #BDCCCC;
+    --border2: #ECE5DF;
+    --border3: #D5DCD7;
+
+    --font_sm: 1.2rem;
+    --font_md: 1.4rem;
+    --font_md_lg: 1.6rem;
+    --font_lg: 1.8rem;
+    --font_h2: 2rem;
+    --font_h1: 2.4rem;
+    --font_header: 3rem;
+    --font_header2: 4rem;
+    --font_header3: 4.8rem;
+    --font_main_header: 8rem;
+
+    --padding_section: 100px;
+    --max_padding_inline: 16px;
+    --max_container: calc(146.4rem + 16px);
+
+    font-size: 62.5%;
+
+}
+
+.accordion {
+    --bs-accordion-btn-active-icon: url("../svg/bulb.svg");
+
+}
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Variable.ttf') format('truetype');
+}
