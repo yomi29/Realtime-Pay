@@ -364,13 +364,35 @@ img {
     width: 100%;
 }
 
+.learn {
+
+
+}
+
 .learn-more {
-    width: 191px;
+    height: 5.8rem;
+    min-width: 19.1rem;
+    max-width: 100%;
+    background-color: var(--text_light);
+    border-color: var(--text_light);
+    align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: inherit;
+    line-height: normal;
+    position: relative;
+    transition: inherit;
+    transition-property: opacity;
+
     padding: 17px 32px 17px 32px;
     border-radius: 44px;
     border: 1px;
     gap: 10px;
     border: 1px solid #BDCCCC;
+}
+
+.learn_more {
     font-family: Satoshi;
     font-size: var(--font_md_lg);
     font-weight: 500;
@@ -378,7 +400,8 @@ img {
     letter-spacing: 0em;
     text-align: left;
     color: var(--primary_color);
-    margin-top: 32px;
+    margin-top: 17px;
+    margin-bottom: 17px;
 }
 
 .arrow-up {
