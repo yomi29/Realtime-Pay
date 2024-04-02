@@ -9,9 +9,7 @@
     word-break: break-word;
 }
 
-@media screen and (max-width: 1260px) {
-
-}
+@media screen and (max-width: 1260px) {}
 
 body {
     background-color: #F7F6F6;
@@ -322,7 +320,7 @@ img {
 
 .services {
     padding: 100px 140px 100px 140px;
-    background-color:  #FFE7D6;
+    background-color: #FFE7D6;
 }
 
 .service-mini {
@@ -340,7 +338,7 @@ img {
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    color: var(--text_dark3); 
+    color: var(--text_dark3);
     max-width: 60.7rem;
 }
 
@@ -362,11 +360,6 @@ img {
     grid-gap: 50px;
     max-width: 530px;
     width: 100%;
-}
-
-.learn {
-
-
 }
 
 .learn-more {
