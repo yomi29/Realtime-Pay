@@ -135,194 +135,52 @@ img {
     font-weight: 500;
 }
 
-.max_container h1 {
+.main_card_container {
+    background-color: #fff;
+    background-color: var(--text_light);
+    border-radius: 20px;
+    padding: 60px;
+    grid-gap: 24px;
+    margin: 0 auto;
+    max-width: 98rem;
+    width: 100%;
+}
+
+.main_card_container h1 {
+    font-size: 6.4rem;
     background: linear-gradient(180deg, #212121, #16bf5e 122.22%);
     background-clip: text;
     -webkit-background-clip: text;
     font-size: 8rem;
     font-size: var(--font_main_header);
     font-weight: 700;
-    text-align: center;
     -webkit-text-fill-color: transparent;
     margin-bottom: 24px;
+    text-align: left;
 }
 
-.max_container p {
+.main_card_container p {
     color: var(--text_dark2);
-    font-size: 2rem;
     font-size: var(--font_h2);
     font-weight: 500;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 782px;
     width: 100%;
 }
 
-.bottom_section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 100%;
-    margin-bottom: 100px;
-    margin-top: 50px;
-    grid-gap: 40px;
-}
-
-.use_cards {
-        grid-gap: 16px;
-        background-color: var(--text_light);
-        border-radius: 20px;
-        padding: 40px;
-        width: 100%;
-        max-width:38.4rem;
-}
-
-.use_cards h4 {
-    color: var(--primary_color);
+.terms h3 {
     font-size: var(--font_header);
     font-weight: 500;
+    margin-bottom: 0;
 }
 
-.use_cards p {
-    font-size: 1.6rem;
-    font-size: var(--font_md_lg);
-    font-weight: 400;
-}
-
-.use_cards p {
+.terms ul>li {
     color: var(--text_dark2);
-    font-size: 2rem;
     font-size: var(--font_h2);
     font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 782px;
-    width: 100%;
-    text-align: start;
-}
-
-.message_container {
-    margin: 0 auto 88px;
-    max-width: 48rem;
-    scroll-margin-top: 120px;
-    width: 100%;
-}
-
-.message_container h3 {
-    color: var(--text_dark3);
-    font-size: var(--font_header2);
-    font-weight: 700;
-    text-align: center;
-}
-
-.message_container p {
-        color: var(--text_dark2);
-        font-size: var(--font_h2);
-        font-weight: 500;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 782px;
-        width: 100%;
-        margin-bottom: 38px;
-        margin-top: 16px;
-        text-align: center;
-}
-
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1* var(--bs-gutter-y));
-    margin-right: calc(-.5* var(--bs-gutter-x));
-    margin-left: calc(-.5* var(--bs-gutter-x));
-}
-
-.input_label {
-    color: #050505;
-    color: var(--text_dark);
-    display: block;
-    font-size: 1.6rem;
-    font-size: var(--font_md_lg);
-    font-weight: 400;
-    margin-bottom: 6px;
-    max-width: -moz-max-content;
-    max-width: max-content;
-}
-
-.capital {
-    text-transform: capitalize;
-}
-
-.input_field {
-    background-color: var(--text_light);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    color: var(--text_dark);
-    font-size: var(--font_md_lg);
-    font-weight: 500;
-    height: 5rem;
     margin: 0;
-    outline: 0;
-    padding: 10px 16px;
-    width: 100%;
-}
-
-/* .form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--bs-body-color);
-    background-color: var(--bs-form-control-bg);
-    background-clip: padding-box;
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: .375rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-} */
-
-.body.theme--light.v-application textarea, body textarea {
-    height: 15.3rem !important;
-    resize: none;
-}
-
-.v-btn_content {
-    justify-content: center;
-    width: 100%;
-    grid-gap: 10px;
-    align-items: center;
-    color: inherit;
-    display: flex;
-    flex: 1 0 auto;
-    justify-content: inherit;
-    line-height: normal;
-    position: relative;
-    transition: inherit;
-    transition-property: opacity;
-}
-
-.v-btn:before {
-    background-color: currentColor;
-    border-radius: inherit;
-    bottom: 0;
-    color: inherit;
-    content: "";
-    left: 0;
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: opacity .2s cubic-bezier(.4,0,.6,1);
-}
-
-.Btn.pill {
-    border-radius: 44px;
+    max-width: 100%;
 }
 
 .footer_section {
@@ -417,3 +275,5 @@ img {
     font-weight: 400;
     color: #FFFFFF;
 }
+
+
