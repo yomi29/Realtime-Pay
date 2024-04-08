@@ -135,6 +135,13 @@ img {
     font-weight: 500;
 }
 
+/* @media screen and (max-width: 1260px) {
+    .body.theme--light.v-application section.about_section, .body.theme--light.v-application section.faq_section, .body.theme--light.v-application section.hero_section, .body.theme--light.v-application section.service_section, body section.about_section, body section.faq_section, body section.hero_section, body section.service_section {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+} */
+
 .max_container h1 {
     background: linear-gradient(180deg, #212121, #16bf5e 122.22%);
     background-clip: text;
@@ -208,6 +215,12 @@ img {
     width: 100%;
 }
 
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
 .message_container h3 {
     color: var(--text_dark3);
     font-size: var(--font_header2);
@@ -268,27 +281,20 @@ img {
     width: 100%;
 }
 
-/* .form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--bs-body-color);
-    background-color: var(--bs-form-control-bg);
-    background-clip: padding-box;
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: .375rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-} */
-
 .body.theme--light.v-application textarea, body textarea {
     height: 15.3rem !important;
     resize: none;
+}
+
+.v-btn {
+    height: 4.4rem;
+    max-width: 17.3rem;
+    color: var(--border);
+    caret-color: var(--border);
+}
+
+.Btn-pill{
+    border-radius: 44px;
 }
 
 .v-btn_content {
@@ -304,6 +310,14 @@ img {
     position: relative;
     transition: inherit;
     transition-property: opacity;
+}
+
+.v-btn_content span {
+    color: var(--text_dark);
+    display: block;
+    font-size: var(--font_md_lg);
+    text-align: center;
+    font-weight: 500;
 }
 
 .v-btn:before {
@@ -323,6 +337,10 @@ img {
 
 .Btn.pill {
     border-radius: 44px;
+    height: 4.4rem;
+    max-width: 17.3rem;
+    color: var(--border);
+    caret-color: var(--border);
 }
 
 .footer_section {

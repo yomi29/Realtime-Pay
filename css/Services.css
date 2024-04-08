@@ -139,15 +139,14 @@ img {
     background: linear-gradient(180deg, #212121, #16bf5e 122.22%);
     background-clip: text;
     -webkit-background-clip: text;
-    font-size: 8rem;
-    font-size: var(--font_main_header);
+    font-size: 7rem;
     font-weight: 700;
     -webkit-text-fill-color: transparent;
+    text-align: center;
     margin-bottom: 24px;
-    padding: 200px 127px var(--padding_section);
 }
 
-.mini_text {
+.minii_text {
     color: #5d8487;
     color: var(--text_dark2);
     font-size: 2rem;
@@ -168,14 +167,12 @@ img {
     grid-gap: 40px;
 }
 
-.use_cards {
+.use_cards { 
     grid-gap: 16px;
     background-color: #fff;
     background-color: var(--text_light);
     border-radius: 20px;
     padding: 40px;
-    width: 100%;
-    max-width:38.4rem;
 }
 
 .txt_2 {
@@ -205,7 +202,22 @@ img {
     border-top: 83.3rem;
     border-left: 14.0rem;
     gap: 0px;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#service_img {
+    max-width: 123.5rem;
+    height: 36.5rem;
+    top: 297rem;
+    gap: 0px;  
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-position: top 47% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .top h4 {
@@ -224,11 +236,15 @@ img {
     margin: 0;
 }
 
-.service_img {
-    max-width: 123.5rem;
-    height: 36.5rem;
-    top: 297rem;
-    gap: 0px;  
+.service_header {
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 123.2rem;
+    padding-left: 13px;
+    padding-right: 13px;
+    width: 100%;
+    padding-top: 150px;
 }
 
 .max_container h3 {
@@ -263,6 +279,40 @@ img {
 
 .accordion-item:has(.show){
     background-color: var(--primary_color);
+}
+
+.faq_header {
+    background: #fff;
+    background: var(--text_light);
+    padding-bottom: 100px;
+    padding-bottom: var(--padding_section);
+    padding-top: 100px;
+    padding-top: var(--padding_section);
+}
+
+.faq_header h3 {
+    color: var(--text_dark3);
+    font-size: var(--font_header3);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.faq_header p {
+    margin-bottom: 80px;
+    color: var(--text_dark2);
+    font-size: var(--font_h2);
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 782px;
+    width: 100%;
+    text-align: center;
+}
+
+#faq_txt {
+    border-bottom: 2px solid;
+    color: #050505;
+    color: var(--text_dark);
 }
 
 .accordion-item:has(.show) .accordion-button {

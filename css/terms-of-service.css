@@ -135,8 +135,11 @@ img {
     font-weight: 500;
 }
 
+.terms_sec {
+    padding-block: 100px;
+}
+
 .main_card_container {
-    background-color: #fff;
     background-color: var(--text_light);
     border-radius: 20px;
     padding: 60px;
@@ -170,15 +173,16 @@ img {
 }
 
 .terms h3 {
-    font-size: var(--font_header);
-    font-weight: 500;
-    margin-bottom: 0;
-}
-
-.terms ul>li {
-    color: var(--text_dark2);
+    font-size: 2rem;
     font-size: var(--font_h2);
     font-weight: 500;
+    margin-bottom: 12px;
+}
+
+#terms_txt {
+    color: var(--text_dark2);
+    font-size: var(--font_md_lg);
+    font-weight: 400;
     margin: 0;
     max-width: 100%;
 }

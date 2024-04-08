@@ -136,7 +136,6 @@ img {
 }
 
 .main_card_container {
-    background-color: #fff;
     background-color: var(--text_light);
     border-radius: 20px;
     padding: 60px;
@@ -144,6 +143,10 @@ img {
     margin: 0 auto;
     max-width: 98rem;
     width: 100%;
+}
+
+.privacy_policy {
+    padding-block: 100px;
 }
 
 .main_card_container h1 {
@@ -198,8 +201,16 @@ img {
 
 .terms ul>li {
     color: var(--text_dark2);
-    font-size: var(--font_h2);
-    font-weight: 500;
+    font-size: var(--font_md_lg);
+    font-weight: 400;
+    margin: 0;
+    max-width: 100%;
+}
+
+#terms_txt {
+    color: var(--text_dark2);
+    font-size: var(--font_md_lg);
+    font-weight: 400;
     margin: 0;
     max-width: 100%;
 }
